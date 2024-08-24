@@ -1,0 +1,29 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.categoryButton {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 12px 25px; /* Add padding for better button feel */
+  background-color: #444; /* Darker background for buttons */
+  border-radius: 4px; /* Rounded corners for buttons */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.categoryButton:hover {
+  background-color: #555; /* Slightly lighter on hover */
+  text-decoration: none; /* Remove underline on hover */
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #555;
+  color: #fff;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4); /* Stronger inset shadow for a more pronounced pressed effect */
+  transform: translateY(1px); 
+}

@@ -1,0 +1,77 @@
+.container {
+  padding: 20px;
+  max-width: min-content;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.input {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #444; /* Darker border to match the theme */
+  background-color: #333; /* Dark background to match the theme */
+  color: #fff; /* White text for contrast */
+  width: 250px; /* Fixed width for consistency */
+  font-size: 1em; /* Slightly larger font for readability */
+  transition: border-color 0.3s ease;
+}
+
+.input::placeholder {
+  color: #aaa; /* Lighter placeholder color for readability */
+}
+
+.input:focus {
+  border-color: #666; /* Darker border color on focus */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle dark shadow for focus */
+  outline: none; /* Remove default outline */
+  background-color: #444; /* Slight background darkening to indicate focus */
+  color: #fff;
+}
+
+.button {
+  padding: 12px 25px; /* Larger padding for a more substantial button */
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff; /* Blue button for primary action */
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination .button{
+  margin: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px);
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.noArticles {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #555;
+}

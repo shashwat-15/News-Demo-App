@@ -1,0 +1,38 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:jsx-a11y/recommended",
+      "plugin:react/jsx-runtime"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "react-hooks",
+      "jsx-a11y"
+    ],
+    "rules": {
+      "react/prop-types": "off",
+      "no-undef": "error",
+      "no-unused-vars": "warn",
+      "no-redeclare": "error",
+      "no-magic-numbers": "off",
+      "no-unused-expressions": "error"
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  
